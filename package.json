@@ -1,0 +1,35 @@
+{
+  "name": "homebridge-neocontrol-module",
+  "version": "0.1.4",
+  "description": "Homebridge plugin for Neocontrol Module",
+  "note": "peerDependencies is hardcoded to peerDepdendencies in homebridge!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"Error: configure and run homebridge to start\" && exit 1"
+  },
+  "engines": {
+    "node": ">4.0.0",
+    "homebridge": ">=0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neocontrol/homebridge-neocontrol-module.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "Neocontrol",
+    "Module",
+    "Siri"
+  ],
+  "dependencies": {
+    "request": "^2.65.0",
+    "sleep": "^3.0.1"
+  },
+  "author": "ilcato",
+  "license": "GPL2",
+  "bugs": {
+    "url": "https://github.com/neocontrol/homebridge-neocontrol-module/issues"
+  },
+  "homepage": "https://github.com/neocontrol/homebridge-neocontrol-module"
+}

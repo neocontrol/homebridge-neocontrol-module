@@ -1,0 +1,115 @@
+{
+    "bridge": {
+        "name": "HomebridgeNeocontrolModule",
+        "username": "CC:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "031-45-154"
+    },
+
+    "description": "This is an example configuration file. You can use this as a template for creating your own configuration file.",
+
+    "platforms": [
+                {
+                "platform": "NeocontrolModule",
+                "name": "NeocontrolModule",
+                "makerkey": "PUT KEY OF YOUR MAKER CHANNEL HERE",
+                "accessories": [{
+                        "name": "Cenas Module",
+                        "cenas": [
+    												{
+    												"cena_nome":"Cima Aceso",
+    												"cena_numero":4,
+    												"cena_seed":6,
+    												"cena_ambiente":6,
+    												"cena_preferencial":1
+    												},
+    												{
+    												"cena_nome":"Cima Apagado",
+    												"cena_numero":7,
+    												"cena_seed":9,
+    												"cena_ambiente":6,
+    												"cena_preferencial":1
+    												},
+    												{
+    												"cena_nome":"Cima Corredor",
+    												"cena_numero":10,
+    												"cena_seed":12,
+    												"cena_ambiente":6,
+    												"cena_preferencial":1
+    												},
+    												{
+    												"cena_nome":"Cortinas Aberta",
+    												"cena_numero":32,
+    												"cena_seed":36,
+    												"cena_ambiente":0,
+    												"cena_preferencial":1
+    												},
+    												{
+    												"cena_nome":"Cortinas Fechadas",
+    												"cena_numero":31,
+    												"cena_seed":35,
+    												"cena_ambiente":0,
+    												"cena_preferencial":1
+    												},
+    												{
+    												"cena_nome":"Cortinas Paradas",
+    												"cena_numero":39,
+    												"cena_seed":43,
+    												"cena_ambiente":0,
+    												"cena_preferencial":1
+    												},
+    												{
+    												"cena_nome":"Master Off AV",
+    												"cena_numero":16,
+    												"cena_seed":18,
+    												"cena_ambiente":4,
+    												"cena_preferencial":1
+    												},
+    												{
+    												"cena_nome":"Salas Aceso",
+    												"cena_numero":3,
+    												"cena_seed":5,
+    												"cena_ambiente":0,
+    												"cena_preferencial":1
+    												},
+    												{
+    												"cena_nome":"Salas Apagado",
+    												"cena_numero":14,
+    												"cena_seed":16,
+    												"cena_ambiente":0,
+    												"cena_preferencial":1
+    												},
+    												{
+    												"cena_nome":"Tudo Aceso",
+    												"cena_numero":0,
+    												"cena_seed":2,
+    												"cena_ambiente":0,
+    												"cena_preferencial":1
+    												},
+    												{
+    												"cena_nome":"Tudo Apagado",
+    												"cena_numero":1,
+    												"cena_seed":3,
+    												"cena_ambiente":0,
+    												"cena_preferencial":1
+    												},
+    												{
+    												"cena_nome":"Ver Globo",
+    												"cena_numero":17,
+    												"cena_seed":19,
+    												"cena_ambiente":4,
+    												"cena_preferencial":1
+    												},
+    												{
+    												"cena_nome":"¡rea Externa",
+    												"cena_numero":13,
+    												"cena_seed":15,
+    												"cena_ambiente":2,
+    												"cena_preferencial":1
+    												}
+                        ]
+                	}
+                ]
+            }
+    ]
+}
